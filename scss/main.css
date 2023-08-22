@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Trocchi", serif;
+}
+
+.card {
+  padding: 30px;
+}
+
+.intro-img {
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.intro {
+  background-color: rgb(234, 232, 229);
+  color: black;
+  max-width: 100%;
+  height: auto;
+}
+.intro h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+header section {
+  padding: 20px 30px;
+  background-color: white;
+}
+header section img {
+  width: 100%;
+}
+
+footer {
+  padding: 10px 30px;
+  background-color: rgb(234, 232, 229);
+  flex-direction: column-reverse;
+  font-family: "Trocchi", serif;
+}
+footer svg {
+  width: 70px;
+  height: 70px;
+  fill: rgb(162, 156, 110);
+  padding: 20px;
+  align-items: center;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+a ::first-line {
+  color: none;
+}
+
+.iconos img {
+  width: 40px;
+  height: 40px;
+  margin: 40px;
+  margin-top: 70px;
+}
+
+.iconos p {
+  margin-top: none;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(203, 147, 168);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: rgb(173, 117, 138);
+}
+
+#prueba {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.navbar img {
+  width: 170px;
+  height: 130px;
+}
+
+.navbar {
+  background-color: rgb(234, 232, 229);
+}
+.navbar li a {
+  font-size: 2em;
+  margin: 20px;
+  line-height: 2em;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+.navbarlink:hover {
+  color: rgb(203, 147, 168);
+}
+.navbar img {
+  width: 170px;
+  height: 130px;
+}/*# sourceMappingURL=main.css.map */

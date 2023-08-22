@@ -1,0 +1,21 @@
+.navbar img {
+	width: 170px;
+	height: 130px;
+}
+.navbar {
+	background-color: $navbarColor;
+	li a {
+		font-size: $textLg;
+		margin: 20px;
+		line-height: 2em;
+		flex-direction: row-reverse;
+		align-items: flex-end;
+	}
+	&link:hover {
+		color:$secondaryColor;
+	}
+    img{
+        width: 170px;
+	    height: 130px;
+    }
+}

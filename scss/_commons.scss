@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+    font-family: $mainFooter;
+}
+
+.card {
+	padding: 30px;
+}
+
+	.intro-img {
+		padding: 20px;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.intro {
+		background-color: rgb(234, 232, 229);
+		color: black;
+		max-width: 100%;
+		height: auto;
+	}
+
+
+
+header section {
+    padding: 20px 30px;
+    background-color:$white;
+    img{
+        width: 100%;
+    }
+}
+
+footer {
+	padding: 10px 30px;
+	background-color:$navbarColor;
+	flex-direction: column-reverse;
+	font-family: $mainFooter;
+	svg {
+		width: 70px;
+		height: 70px;
+		fill: rgb(162, 156, 110);
+		padding: 20px;
+		align-items: center;
+	}
+	img {
+		width: 40px;
+		height: 40px;
+	}
+}
+a ::first-line {
+	color: none;
+}
+.iconos img {
+	width: 40px;
+	height: 40px;
+	margin: 40px;
+	margin-top: 70px;
+}
+.iconos p {
+	margin-top: none;
+}
+.btn {
+	color: white;
+	background-color: rgb(203, 147, 168);
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+	&:hover {
+		background-color: rgb(173, 117, 138);
+	}
+}
+#prueba {
+	animation-duration: 1s;
+	animation-name: slidein;
+}
